@@ -638,7 +638,6 @@
             // picC1
             // 
             this.picC1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picC1.Image = global::Reversi.Properties.Resources.greenCircle;
             this.picC1.Location = new System.Drawing.Point(26, 175);
             this.picC1.Name = "picC1";
             this.picC1.Size = new System.Drawing.Size(50, 50);
@@ -719,7 +718,6 @@
             // picB1
             // 
             this.picB1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picB1.Image = global::Reversi.Properties.Resources.blueCircle;
             this.picB1.Location = new System.Drawing.Point(26, 126);
             this.picB1.Name = "picB1";
             this.picB1.Size = new System.Drawing.Size(50, 50);
