@@ -1,0 +1,9 @@
+c:\users\tyler\documents\visual studio 2015\Projects\Reversi\Reversi\bin\Debug\Reversi.exe.config
+c:\users\tyler\documents\visual studio 2015\Projects\Reversi\Reversi\bin\Debug\Reversi.exe
+c:\users\tyler\documents\visual studio 2015\Projects\Reversi\Reversi\bin\Debug\Reversi.pdb
+c:\users\tyler\documents\visual studio 2015\Projects\Reversi\Reversi\obj\Debug\Reversi.csprojResolveAssemblyReference.cache
+c:\users\tyler\documents\visual studio 2015\Projects\Reversi\Reversi\obj\Debug\Reversi.Form1.resources
+c:\users\tyler\documents\visual studio 2015\Projects\Reversi\Reversi\obj\Debug\Reversi.Properties.Resources.resources
+c:\users\tyler\documents\visual studio 2015\Projects\Reversi\Reversi\obj\Debug\Reversi.csproj.GenerateResource.Cache
+c:\users\tyler\documents\visual studio 2015\Projects\Reversi\Reversi\obj\Debug\Reversi.exe
+c:\users\tyler\documents\visual studio 2015\Projects\Reversi\Reversi\obj\Debug\Reversi.pdb
