@@ -98,6 +98,9 @@
             this.lblComputerScore = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.restartToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.highScoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.statisticsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.picH8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picH7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picH6)).BeginInit();
@@ -788,7 +791,6 @@
             // picA2
             // 
             this.picA2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picA2.Image = global::Reversi.Properties.Resources.blueCircle;
             this.picA2.Location = new System.Drawing.Point(75, 77);
             this.picA2.Name = "picA2";
             this.picA2.Size = new System.Drawing.Size(50, 50);
@@ -799,7 +801,6 @@
             // picA1
             // 
             this.picA1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picA1.Image = global::Reversi.Properties.Resources.redCircle;
             this.picA1.Location = new System.Drawing.Point(26, 77);
             this.picA1.Name = "picA1";
             this.picA1.Size = new System.Drawing.Size(50, 50);
@@ -859,9 +860,31 @@
             // 
             // fileToolStripMenuItem
             // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.restartToolStripMenuItem,
+            this.highScoresToolStripMenuItem,
+            this.statisticsToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
+            // 
+            // restartToolStripMenuItem
+            // 
+            this.restartToolStripMenuItem.Name = "restartToolStripMenuItem";
+            this.restartToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.restartToolStripMenuItem.Text = "Restart";
+            // 
+            // highScoresToolStripMenuItem
+            // 
+            this.highScoresToolStripMenuItem.Name = "highScoresToolStripMenuItem";
+            this.highScoresToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.highScoresToolStripMenuItem.Text = "High Scores";
+            // 
+            // statisticsToolStripMenuItem
+            // 
+            this.statisticsToolStripMenuItem.Name = "statisticsToolStripMenuItem";
+            this.statisticsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.statisticsToolStripMenuItem.Text = "Statistics";
             // 
             // Form1
             // 
@@ -1083,6 +1106,9 @@
         private System.Windows.Forms.Label lblComputerScore;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem restartToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem highScoresToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem statisticsToolStripMenuItem;
     }
 }
 

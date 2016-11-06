@@ -19,8 +19,13 @@ namespace Reversi
 
         public class Tile
         {
-            PictureBox pic;
-            string color;
+            private PictureBox pic;
+            private string color;
+
+            public Tile(PictureBox pic)
+            {
+                this.pic = pic;
+            }
 
             public void setColor(string color)
             {
@@ -28,7 +33,18 @@ namespace Reversi
                 if (color == "blue")
                 {
                     pic.Image = Properties.Resources.blueCircle;
+                }else if (color == "red")
+                {
+                    pic.Image = Properties.Resources.redCircle;
+                }else if (color == "green")
+                {
+                    pic.Image = Properties.Resources.greenCircle;
                 }
+            }
+
+            public string getColor()
+            {
+                return color;
             }
         }
     }
